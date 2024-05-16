@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grad Hvar</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta charset="utf-8" />
+<style>
+/* CSS stilovi */
+body {
+  background-color: #89CFF0; /* Dodali smo boju pozadine */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.grb-hvara {
+  display: block;
+}
+
+/* Slideshow stilovi */
+.mySlides {
+  display: none;
+}
+.container {
+  margin-left: 5cm;
+  margin-right: 5cm;
+}
+.slideshow-container {
+  max-width: 100vw; /* Promijenjena maksimalna širina na 100% širine ekrana */
+  position: relative;
+  margin: 0; /* Uklanja marginu */
+  height: 10cm; /* Postavljamo visinu na 10cm */
+}
+
+.slideshow-container img {
+  vertical-align: middle;
+  width: 100%;
+  height: 10cm;
+  object-fit: cover;
+}
+
+/* Ostali slideshow stilovi */
+/* Dodaj ovdje stilove za prethodne i sljedeće tipke, te dodatne funkcije ako je potrebno */
+
+/* Stilovi za slika-tekst, tekst-slika */
+.container img {
+  width: 8cm;
+  height: 5cm;
+}
+.container img {
+  width: 8cm;
+  height: 5cm;
+}
+.lijevo {
+  float: left;
+  margin-right: 20px;
+}
+
+.desno {
+  float: right;
+  margin-left: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div id="grb-hvara" class="grb-hvara">
+  <img src="logo-hvar-grb.jpg" alt="Grb Hvara">
+</div>
+
+<ul>
+  <li><a href="POČETNA.html">POČETNA</a></li>
+  <li><a href="OTOK HVAR.html">OTOK HVAR</a></li>
+  <li><a href="HOTELI.html">HOTELI</a></li>
+  <li><a href="KARTA HVARA.html">KARTA HVARA</a></li>
+<li><a href="UNOS PODATAKA.html">UNOS PODATAKA</a></li>
+<li><a href="PROMJENA PODATAKA.html">PROMJENA PODATAKA</a></li>
+<li><a href="BRISANJE PODATAKA.html">BRISANJE PODATAKA</a></li>
+</ul>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="HD-wallpaper-hvar-adriatic-sea-dalmatian-coast-summer-tourism-hvar-cityscape-resort-croatia.JPG">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="HVAR-Bonj-DJI_0818-Pano_ACR-a-gospic.JPG">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="HD-wallpaper-hvar-cathedral-cathedral-of-st-stephen-hvar-morning-sunrise-landmark-split-dalmatia-county-croatia.JPG">
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)"></a>
+  <a class="next" onclick="plusSlides(1)"></a>
+</div>
+<br>
+<br>
+
+<div class="container">
+  <div class="clearfix">
+    <img class="lijevo" src="hvar-island-in-the-adriatic-sea.jpg" alt="image">
+    <p>Otok Hvar, kralj među dalmatinskim otocima, poznat je od antike po svom vaznom strateškom i nautičkom polozaju, bogatstvu slojevitosti povijesnih razdoblja, kulturnim i prirodnim spomenicima i knjizevnosti.
+Zahvaljujući blagoj klimi, toplim zimama i ugodnim ljetima, domaćin je brojnim gostima, znanstvenicima i putnicima namjernicima koji su privučeni raskošnom mediteranskom prirodom, bogatom tradicijom i noćnim životom. Hvar se danas smatra jednim od deset najljepših otoka na svijetu.
+Dok odvojenost od obale ponekad može biti hendikep, takodjer pruža i zaštitu od tvorničkih dimnjaka, gužvi na cestama i sličnih stvari koje nažalost dolaze s civilizacijom. Umjesto toga, tu su prostrana polja lavande, drevna stabla maslina i vinogradi, u jedinstvenoj harmoniji čovjeka i prirode.</p>
+  </div>
+
+  <br><br>
+
+  <div class="clearfix">
+    <img class="desno" src="palmizana-beach-croatia.jpg" alt="image">
+    <p>Tu su vino i masline, pa će gost koji se želi približiti prirodi, radje otići u malu Hvarsku konobu, nego u najluksuzniji restoran. Probaće pravo domaće vino, umjesto čuvenog šampanjca, zapjevaće staru otočku pjesmu i zaboraviti na svakodnevnu rutinu. Tijekom vremena i života na otoku, tu se sačuvala oaza kulture, svjedočanstvo identita.
+Pozivamo vas da istražite ovaj jedinstveni otok koji nudi sve što je potrebno za nezaboravan odmor..</p>
+  </div>
+
+  <br><br>
+
+  <div class="clearfix">
+    <img class="lijevo" src="9.-Town-of-Vrboska-on-Hvar-island-waterfront-view.jpg" alt="image">
+    <p>Bez obzira što tražite na svom odmoru pronaći ćete ovdje; noćni život i arhitektura kozmopolitskog grada Hvara, izleti brodom na Paklene otoke, pješčane plaže kraj Jelse, spoj antike i modernog u Starom Gradu, rajske plaže ispod  borovih šuma Zavale, egzotiku južnih padina otoka u mjestima Ivan Dolac,  Sveta Nedjelja i Milna, ambijent "male Venecije" u Vrboski, vožnja kroz polja lavande kraj Gdinja, Zastražišća i Bogomolje, mirne skrivene uvale oko Sućurja, djelić je doživljaja koji vas čeka.
+Bogato kulturno i povijesno naslijedje Hvara koje datira od prethistorijskih vremena, jedinstvena gastronomija, prekrasne plaže i uvale, kristalno čisto more, kvalitetan privatni smještaj u apartmanima i sobama u privatnim kućama, i ljubaznost domaćeg puka su garancija odmora koji nećete zaboraviti.</p>
+  </div>
+</div>
+<script>
+/* JavaScript za slideshow */
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 3000); // Promijenjeno na 3000 milisekundi (3 sekunde)
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
